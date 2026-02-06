@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/BOT-INTELIGENTE/', // <--- Agrega esta línea aquí
+  // Borra o comenta la línea de 'base' para Netlify
   plugins: [
     react(),
     tailwindcss(), 
